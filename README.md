@@ -1,46 +1,59 @@
-# LH Games Angular
+# LH Games - Sistema de Loja de Produtos
 
-Projeto desenvolvido com Angular para gerenciamento e exibição de jogos.
+Projeto desenvolvido em Angular para gerenciamento de produtos de uma loja de games.
 
-## Tecnologias
+A aplicação permite visualizar produtos, realizar login de usuários, acessar uma área restrita e realizar operações utilizando uma API REST.
 
-* Angular
-* TypeScript
-* HTML
-* CSS
+---
 
-## Como executar
+## 🚀 Tecnologias utilizadas
 
-1. Clone o repositório:
+- Angular
+- TypeScript
+- Angular Material
+- Bootstrap
+- HTML5
+- CSS3
+- API REST
+- Postman
+- LocalStorage para armazenamento do token
 
-```bash
-git clone https://github.com/GustavoDevSenai/LH-games-projeto-angular.git
-```
+---
 
-2. Acesse a pasta do projeto:
+## 📌 Funcionalidades desenvolvidas
 
-```bash
-cd LH-games-angular
-```
+### Página Inicial
 
-3. Instale as dependências:
+- Listagem de produtos consumindo informações da API.
+- Exibição de:
+  - Nome do produto;
+  - Descrição;
+  - Imagem;
+  - Preço.
 
-```bash
-npm install
-```
+---
 
-4. Execute a aplicação:
+### Área Restrita
 
-```bash
-ng serve
-```
+Área protegida para usuários autenticados.
 
-5. Abra o navegador:
+Funcionalidades:
 
-```text
-http://localhost:4200
-```
+- Listagem de produtos;
+- Cadastro de produtos;
+- Atualização de produtos;
+- Exclusão de produtos.
 
-## Autor
+---
 
-Gustavo Rodrigues
+## 🔐 Sistema de Login
+
+Implementado sistema de autenticação com:
+
+- Tela de login;
+- Usuário e senha;
+- Geração de token;
+- Armazenamento do token no LocalStorage;
+- Controle de acesso à área restrita.
+
+Usuário de teste:
