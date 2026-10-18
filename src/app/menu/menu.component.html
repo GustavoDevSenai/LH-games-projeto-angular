@@ -1,6 +1,39 @@
-<mat-toolbar color="primary">
-    <span><a routerLink="inicio"><img src="./assets/img/logo.png"></a></span>
-    <span><a routerLink="inicio">Produtos</a></span>
+<mat-toolbar color="primary" id="menu">
+
+  <mat-toolbar-row>
+
+    <!-- Logo -->
+    <span>
+      <a routerLink="/inicio">
+        <img src="./assets/img/logo.png" alt="Logo">
+      </a>
+    </span>
+
+
+    <!-- Links -->
+    <span class="links">
+
+      <a routerLink="/inicio">
+        Produtos
+      </a>
+
+    </span>
+
+
+    <!-- Espaço automático -->
     <span class="example-spacer"></span>
-    <span><a routerLink="login">Login</a></span>
+
+
+    <!-- Login -->
+    <span>
+
+      <a routerLink="/login">
+        Login
+      </a>
+
+    </span>
+
+
+  </mat-toolbar-row>
+
 </mat-toolbar>

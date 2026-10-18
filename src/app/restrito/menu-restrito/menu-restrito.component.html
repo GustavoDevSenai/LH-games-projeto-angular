@@ -1,0 +1,43 @@
+<mat-toolbar color="primary">
+
+  <mat-toolbar-row>
+
+    <span>
+      <a routerLink="/restrito/lista-produto">
+        Listar Produtos
+      </a>
+    </span>
+
+
+    <span>
+      <a routerLink="/restrito/cadastro-produto">
+        Cadastrar Produto
+      </a>
+    </span>
+
+
+    <span>
+      <a routerLink="/restrito/atualiza-produto">
+        Atualizar Produto
+      </a>
+    </span>
+
+
+    <span class="example-spacer"></span>
+
+
+    <button 
+  mat-icon-button 
+  class="example-icon"
+  (click)="logout()">
+
+  <span class="material-icons">
+    logout
+  </span>
+
+</button>
+
+
+  </mat-toolbar-row>
+
+</mat-toolbar>

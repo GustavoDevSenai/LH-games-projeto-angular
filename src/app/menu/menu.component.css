@@ -1,18 +1,64 @@
+#menu {
+
+  height: 80px;
+
+}
+
+
+/* Logo */
+
+#menu img {
+
+  width: 70px;
+  height: 70px;
+
+  object-fit: contain;
+
+}
+
+
+/* Links */
+
+#menu a {
+
+  color: white;
+
+  text-decoration: none;
+
+  font-size: 18px;
+
+  margin-left: 25px;
+
+  transition: 0.3s;
+
+}
+
+
+
+#menu a:hover {
+
+  color: #ffcc00;
+
+}
+
+
+
+/* Empurra o login para direita */
+
 .example-spacer {
+
   flex: 1 1 auto;
-}
-span{
-padding: 10px;
-color: "#fff";
+
 }
 
-img{
-height: 50px;
-width: 50px;
-}
 
-a{
-text-decoration: none;
-color: white;
-}
 
+/* Alinhamento */
+
+mat-toolbar-row {
+
+  display: flex;
+
+  align-items: center;
+
+}
